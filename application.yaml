@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/seunhub007/booksiread.com2.git
+    repoURL: https://github.com/seunhub007/Argocd.git
     targetRevision: HEAD
-    path: bik
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
